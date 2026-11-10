@@ -1,3 +1,7 @@
+.root{
+    text-align: center;
+}
+
 main {
     max-width: 840px;
 }
@@ -35,7 +39,7 @@ aside {
     padding: 1rem;
     background-color: #eee;
     color: #333;
-    text-align: center;
+    text-align: var(--text-align);
 }
 
 main img {
@@ -56,5 +60,5 @@ footer {
     margin-top: 20px;
     border-top: 1px solid #ccc;
     background-color: white;
-    text-align: center;
+    text-align: var(--text-align);
 }
