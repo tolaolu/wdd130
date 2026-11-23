@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Us at Rapids Edge Rafting for unforgettable white water rafting adventures.">
+    <meta name="author" content="Omotola Bello">
+    <title>Contact Us | Rapids Edge Rafting</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+
+    <header>
+        <img src="images/logo.jpg" alt="Rapids Edge Rafting Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+    <div class="company-info">
+        <h1>Rapids Edge Rafting</h1>
+        <p>123 Main River Street</p>
+        <p>Kolob, California</p>
+        <p>+1 999 999 9999</p>
+        <p>info@rapidsedgerafting.com</p>
+    </div>
+
+    <div class="contact-grid">
+        <div class="map-box">
+            <iframe 
+                src="https://google.com" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Company Location Map">
+            </iframe>
+        </div>
+
+        <form action="#" method="post" class="contact-form">
+            <div class="form-row">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Placeholder" required>
+            </div>
+
+            <div class="form-row">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Placeholder" required>
+            </div>
+
+            <div class="form-row radio-row">
+                <span class="group-label">Message<br>Purpose</span>
+                <div class="radio-options">
+                    <label for="purpose-general">
+                        <input type="radio" id="purpose-general" name="purpose" value="general" checked>
+                        General Inquiry
+                    </label>
+                    <label for="purpose-reservation">
+                        <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
+                        Reservation Question
+                    </label>
+                    <label for="purpose-suggestion">
+                        <input type="radio" id="purpose-suggestion" name="purpose" value="suggestion">
+                        Website Suggestion
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-column">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Type here" required></textarea>
+            </div>
+
+            <div class="checkbox-row">
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Please Subscribe me to the monthly newsletter</label>
+            </div>
+
+            <button type="submit" class="submit-btn">Get in Touch!</button>
+        </form>
+    </div>
+
+    <!-- Employee Profile Section -->
+    <section class="employees">
+        <h2>We Are Here to Serve You</h2>
+        <figure>
+            <img src="images/employee1.jpg" alt="Lead River Guide">
+            <figcaption>Sarah Jenkins - Lead Guide</figcaption>
+        </figure>
+        <figure>
+            <img src="images/employee2.jpg" alt="Safety Director">
+            <figcaption>Marcus Vance - Safety Director</figcaption>
+        </figure>
+        <figure>
+            <img src="images/employee3.jpg" alt="Trip Coordinator">
+            <figcaption>Elena Rostova - Trip Coordinator</figcaption>
+        </figure>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 | Rapids Edge Rafting | Omotola Bello</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com" target="_blank" rel="noopener">
+                <img src="images/facebook.svg.webp" alt="Facebook">
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener">
+                <img src="images/instagram.svg.webp" alt="Instagram">
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener">
+                <img src="images/youtube.svg.webp" alt="YouTube">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+</html>
